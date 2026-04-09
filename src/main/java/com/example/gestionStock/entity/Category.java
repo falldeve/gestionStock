@@ -1,5 +1,6 @@
 package com.example.gestionStock.entity;
 
+import com.example.gestionStock.enums.Status;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

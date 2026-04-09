@@ -1,6 +1,6 @@
 package com.example.gestionStock.web.dto.requests;
 
-import com.example.gestionStock.entity.Status;
+import com.example.gestionStock.enums.Status;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
