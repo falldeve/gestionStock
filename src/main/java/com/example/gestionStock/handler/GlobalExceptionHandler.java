@@ -13,12 +13,7 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * Gestionnaire d'exceptions global pour l'ensemble de l'application.
- * Intercepte les exceptions spécifiques lancées par les contrôleurs et les transforme
- * en réponses HTTP standardisées et claires pour le client.
- * L'annotation @ControllerAdvice permet de centraliser ce traitement pour tous les contrôleurs.
- */
+
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
